@@ -1829,6 +1829,10 @@ const duration2 = (row2.length / 2 * pixelsPerItem) / pixelsPerSecond;
     opacity: 0.8;
   }
 
+  :global(html[data-theme='light']) .sponsor-logo-vercel {
+    filter: none;
+  }
+
   .sponsor-card:hover .sponsor-logo {
     opacity: 1;
   }
